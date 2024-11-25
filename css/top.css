@@ -1,0 +1,40 @@
+.logo{
+    text-shadow: 1px 2px 3px #808080;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+body{
+    margin: 0;
+    background-image: url(../images/tekito.png);
+    background-size: 100% auto;
+}
+.lineup{
+    margin-left: 125px;
+    padding: 0%;
+    font-size: 60px;
+    font-family: 'Amatic SC', cursive;
+}
+.font {
+    font-size: 60px;
+    font-family: 'Amatic SC', cursive;
+    text-shadow: 1px 2px 3px #808080;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+.container{
+    display: table-cell;
+    letter-spacing: 10px;/*文字間*/
+    line-height: 65px;/*行間*/
+    margin-bottom: auto;
+}
+
+footer{
+    background: #432;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+footer p{
+    color: #fff;
+    font-size: 0.875rem;
+}

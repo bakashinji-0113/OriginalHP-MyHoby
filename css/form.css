@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.wrapper1{
+    padding-left: 12%;
+}
+.font{
+    font-size: 50px;
+    font-family: 'Amatic SC', cursive;
+    text-shadow: 1px 2px 3px #808080;
+}
+.top-nav{
+    display: flex;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-top: 50px;
+    list-style: none;
+}
+.top-nav li{
+    margin-left: 36px;
+}
+.top-nav a{
+    color: #432;
+}
+.width{
+    margin: 0 auto;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+#form{
+    background-image: url("../images/tekito.png");
+    height: 150px;
+    margin-bottom: 40px;
+}
+#contact{
+    min-height: 100vh;
+}
+form div{
+    margin-bottom: 14px;
+}
+label{
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    display: block;
+}
+input[type="text"],
+input[type="email"],
+textarea{
+    background: rgba(236,211,175,.5);
+    border: 1px #fff solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+input[type="text"],
+input[type="email"]{
+    width: 100%;
+    max-width: 240px;
+}
+textarea{
+    width: 100%;
+    max-width: 480px;
+    height: 6rem;
+}
+input[type="submit"]{
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+}
+
+footer{
+    background: #432;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+footer p{
+    color: #fff;
+    font-size: 0.875rem;
+}

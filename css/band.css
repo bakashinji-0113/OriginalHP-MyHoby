@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.font{
+    font-size: 50px;
+    font-family: 'Amatic SC', cursive;
+    text-shadow: 1px 2px 3px #808080;
+}
+.top-nav{
+    display: flex;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-top: 50px;
+    list-style: none;
+}
+.top-nav li{
+    margin-left: 36px;
+}
+.top-nav a{
+    color: #432;
+}
+
+#band{
+    background-image: url("../images/tekito.png");
+    height: 150px;
+    margin-bottom: 40px;
+}
+.width{
+    margin: 0 auto;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+article{
+    width: 80%;
+}
+aside{
+    width: 22%;
+}
+.band-contents{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.song-title{
+    display: flex;
+}
+.song-title2{
+    padding-left: 20px;
+}
+.article{
+    display: flex;
+}
+.sub-title{
+    border-bottom: 2px #0bd solid;
+}
+
+footer{
+    background: #432;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+footer p{
+    color: #fff;
+    font-size: 0.875rem;
+}
